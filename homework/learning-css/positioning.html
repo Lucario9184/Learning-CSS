@@ -5,106 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
+        .container {
             position: fixed;
             inset: 0;
         }
         .topleft {
             position: absolute;
-            top: 8px;
-            left: 16px;
-            font-size: 20px;
-            color:blue;
+            top: 0px;
+            left: 0px;
+            color: red;
+            font-size: 30px;
+        }
+        .topcenter {
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            text-align: center;
+            color: red;
+            font-size: 30px;
         }
         .topright {
             position: absolute;
-            top: 8px;
-            right: 16px;
-            font-size: 20px;
-            color:blue;
+            top: 0px;
+            right: 0px;
+            color: red;
+            font-size: 30px;
+        }
+        .centerleft {
+            position: absolute;
+            top: calc(50% - 15px);
+            left: 0px;
+            color: red;
+            font-size: 30px;
+        }
+        .center {
+            position: absolute;
+            top: calc(50% - 15px);
+            width: 100%;
+            text-align: center;
+            color: red;
+            font-size: 30px;
+        }
+        .centerright {
+            position: absolute;
+            top: calc(50% - 15px);
+            right: 0px;
+            color: red;
+            font-size: 30px;
+        }
+        .bottomleft {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            color: red;
+            font-size: 30px;
+        }
+        .bottomcenter {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            text-align: center;
+            color: red;
+            font-size: 30px;
+        }
+        .bottomright {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            color: red;
+            font-size: 30px;
+        }
 
-        }
-        img { 
-            display:block;
-            width:100%;
-            height:100%;
-            object-fit: cover;
-            opacity: 0.5;
-        }
-        .bottom_left{
-            position: absolute;
-            bottom: 8px;
-            left: 16px;
-            font-size: 20px;
-            color:blue;
 
-        }
-        .bottom_right{
-            position: absolute;
-            bottom: 8px;
-            right: 16px;
-            font-size: 20px;
-            color:blue;
-
-        }
-        .center{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 20px;
-            color:blue;
-        }
-        .center_left{
-            position: absolute;
-            bottom: 50%;
-            right: 50%;
-            font-size: 20px;
-            left: 16px;
-            color:blue;
-        }
-        .center_right{
-            position: absolute;
-            bottom: 50%;
-            right: 50%;
-            font-size: 20px;
-            right: 16px;
-            color:blue;
-        }
-        .top_center{
-            position: absolute;
-            top: 8px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 20px;
-            color:blue;
-        
-        }
-        .bottom_center{
-            position: absolute;
-            bottom: 8px;
-            left: 50%;
-            transform: translateX(-50%);
-            font-size: 20px;
-            color:blue;
-        } 
 
 
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="photo.jpg" alt="image"  width="100%" height="50px">
+        <img src="photo.jpg" alt="image"  width="100%">
     <div class="topleft">Shobhit</div> 
     <div class="topright">Shobhit</div>
-    <div class="bottom_left">Shobhit</div>
-    <div class="bottom_right">Shobhit</div>
-     <div class="center_left">Shobhit</div>
-     <div class="center_right">Shobhit</div>
-     <div class="top_center">Shobhit</div>
-     <div class="bottom_center">Shobhit</div>
-     <div class="center">Shobhit</div>
-
+    <div class="bottomleft">Shobhit</div>
+    <div class="bottomright">Shobhit</div>
+    <div class="centerleft">Shobhit</div>
+    <div class="centerright">Shobhit</div>
+    <div class="topcenter">Shobhit</div>
+    <div class="bottomcenter">Shobhit</div>
+    <div class="center">Shobhit</div>
     </div>
     
 </body>
