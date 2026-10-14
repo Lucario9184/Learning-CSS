@@ -3,28 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Name Grid</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 20px;
+            color:blue;
+        }
+        .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 20px;
+            color:blue;
+
+        }
+        img { 
+            display:block;
+            width:100%;
+            height:800px;
+            opacity: 0.5;
+        }
+        .bottom_left{
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 20px;
+            color:blue;
+
+        }
+        .bottom_right{
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 20px;
+            color:blue;
+
+        }
+        .center{
+            position: absolute;
+            bottom: 50%;
+            right: 50%;
+            font-size: 20px;
+            color:blue;
+        }
+        .center_left{
+            position: absolute;
+            bottom: 50%;
+            right: 50%;
+            font-size: 20px;
+            left: 16px;
+            color:blue;
+        }
+        .center_right{
+            position: absolute;
+            bottom: 50%;
+            right: 50%;
+            font-size: 20px;
+            right: 16px;
+            color:blue;
+        }
+        .top_center{
+            position: absolute;
+            top: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            color:blue;
+        
+        }
+        .bottom_center{
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            color:blue;
+        } 
+
+
+    </style>
 </head>
 <body>
+    <div class="container">
+        <img src="photo.jpg" alt="image"  width="100%" height="50px">
+    <div class="topleft">Shobhit</div> 
+    <div class="topright">Shobhit</div>
+    <div class="bottom_left">Shobhit</div>
+    <div class="bottom_right">Shobhit</div>
+     <div class="center_left">Shobhit</div>
+     <div class="center_right">Shobhit</div>
+     <div class="top_center">Shobhit</div>
+     <div class="bottom_center">Shobhit</div>
+     <div class="center">Shobhit</div>
 
-    <!-- Full-screen background image -->
-    <img src="photo.jpg" alt="Background photo" class="background">
-
-    <!-- Nine name positions -->
-    <div class="name-grid">
-        <div>Shobhit Soam</div>
-        <div>Shobhit Soam</div>
-        <div>Shobhit Soam</div>
-
-        <div>Shobhit Soam</div>
-        <div>Shobhit Soam</div>
-        <div>Shobhit Soam</div>
-
-        <div>Shobhit Soam</div>
-        <div>Shobhit Soam</div>
-        <div>Shobhit Soam</div>
     </div>
-
+    
 </body>
 </html>
