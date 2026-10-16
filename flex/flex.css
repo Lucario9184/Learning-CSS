@@ -1,8 +1,9 @@
 .container {
     background-color: blue;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    width: 200px;
     height: 1000px;
 }
 .container div {
