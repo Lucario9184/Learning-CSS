@@ -1,6 +1,7 @@
 .container {
     background-color: blue;
     display: flex;
+    flex-direction: column;
 }
 .container div {
     background-color: yellow;
