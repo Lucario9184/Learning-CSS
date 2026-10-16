@@ -1,0 +1,12 @@
+.container {
+    background-color: blue;
+    display: flex;
+}
+.container div {
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
