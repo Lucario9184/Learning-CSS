@@ -1,11 +1,11 @@
 .container1 {
     background-color: purple;
     display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
 }
 .container1 div {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: auto;
     padding: 20px;
     margin: 20px;
     background-color: orange;
@@ -14,11 +14,10 @@
 .container2 {
     background-color: purple;
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 .container2 div {
-    width: 20px;
-    height: 20px;
+    width: 50px;
     padding: 20px;
     margin: 20px;
     background-color: orange;
@@ -27,11 +26,10 @@
 .container3 {
     background-color: purple;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 .container3 div {
-    width: 20px;
-    height: 20px;
+    width: 50px;
     padding: 20px;
     margin: 20px;
     background-color: orange;
@@ -40,11 +38,10 @@
 .container4 {
     background-color: purple;
     display: flex;
-    justify-content: space-between;
+    align-items: stretch;
 }
 .container4 div {
-    width: 20px;
-    height: 20px;
+    width: 50px;
     padding: 20px;
     margin: 20px;
     background-color: orange;
@@ -53,24 +50,10 @@
 .container5 {
     background-color: purple;
     display: flex;
-    justify-content: space-around;
+    align-items: baseline;
 }
 .container5 div {
-    width: 20px;
-    height: 20px;
-    padding: 20px;
-    margin: 20px;
-    background-color: orange;
-    text-align: center;
-}
-.container6 {
-    background-color: purple;
-    display: flex;
-    justify-content: space-evenly;
-}
-.container6 div {
-    width: 20px;
-    height: 20px;
+    width: 50px;
     padding: 20px;
     margin: 20px;
     background-color: orange;
