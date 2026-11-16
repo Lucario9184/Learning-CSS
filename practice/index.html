@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container1 {
+            background-color: blue;
+            display: block;
+            position: fixed;
+            height: 400px;
+            width: 500px;
+            border-radius: 2%;
+        }
+        .container2 {
+            background-color: green;
+            display: block;
+            z-index: 1;
+            position: relative;
+            top: 200px;
+            width: 200px;
+            height: 200px;
+            border-radius: 2%;
+        }
+        div p{
+            padding: 10px;
+            text-align: right;
+            color: white;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1"><p>Div1</p></div>
+    <div class="container2"><p>Div2</p></div>
+</body>
+</html>
