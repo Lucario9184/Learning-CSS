@@ -17,27 +17,25 @@
             height: 400px;
             width: 500px;
             border-radius: 2%;
+            text-align: right;
+            color: white;
         }
         .container2 {
             background-color: green;
             display: block;
             z-index: 1;
-            position: relative;
+            position:fixed;
             top: 200px;
             width: 200px;
             height: 200px;
             border-radius: 2%;
         }
-        div p{
-            padding: 10px;
-            text-align: right;
-            color: white;
-            font-size: larger;
-        }
     </style>
 </head>
 <body>
-    <div class="container1"><p>Div1</p></div>
-    <div class="container2"><p>Div2</p></div>
+    <div class="container1">
+        Div1 &nbsp;
+        <div class="container2">Div2 &nbsp;</div>
+    </div>
 </body>
 </html>
