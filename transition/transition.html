@@ -9,11 +9,16 @@
             background-color: blue;
             width: 400px;
             height: 400px;
-            transition: all 2s;
+            transition: all 1s;
             margin: 20px;
+            color: red;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         #div1 {
-             transition-timing-function: linear;
+                transition-timing-function: linear;
             }
         #div2 {
                 transition-timing-function: ease;
@@ -32,16 +37,18 @@
                 background-color: red;
                 width: 800px;
                 height: 800px;
-                transform: rotate(360deg);
+                transform: skew(20deg, 20deg) translateX(500px) rotate(360deg);
                 border-radius: 50%;
+                font-size: 100px;
+                color: blue;
         }
     </style>
 </head>
 <body>
-    <div id="div1"></div>
-    <div id="div2"></div>
-    <div id="div3"></div>
-    <div id="div4"></div>
-    <div id="div5"></div>
+    <div id="div1">Linear</div>
+    <div id="div2">Ease</div>
+    <div id="div3">Ease-in</div>
+    <div id="div4">Ease-out</div>
+    <div id="div5">Ease-in-out</div>
 </body>
 </html>
